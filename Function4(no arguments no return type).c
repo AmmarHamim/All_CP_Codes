@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+void sum(void);
+void main()
+{
+    sum();
+}
+void sum()
+{
+    int a=3,b=4,sum=0;
+
+    sum=a+b;
+    printf("sum= %d\n",sum);
+}
